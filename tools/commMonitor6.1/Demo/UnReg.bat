@@ -1,0 +1,1 @@
+regsvr32 -u CommMonitor6x.ocx

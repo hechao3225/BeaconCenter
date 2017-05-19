@@ -1,0 +1,224 @@
+[Default]
+//default=1=ZH
+//default=2=TW
+//default=3=EN
+default=1
+
+[ZH]
+tbs_DUMP-Caption=DUMP视图
+tbs_Data-Caption=列表视图
+Act_font-Hint=字体选择
+Act_font-Caption=字体
+g_Mon-Caption=监控
+rg_Com-Caption=串口列表
+act_Top-Hint=窗体最顶端
+act_Top-Caption=最顶端
+act_Preview-Caption=打印
+act_About-Caption=关于
+act_Help-Hint=打开帮助文件
+act_Help-Caption=打开帮助
+act_CopyTo-Hint=复制到剪贴板
+act_CopyTo-Caption=复制
+act_Exit-Caption=退出
+act_Clear-Hint=清空显示当前视图
+act_Clear-Caption=清空显示
+act_Capture-Hint=开启/暂停捕获数据
+act_Capture-Caption=开启/暂停
+act_Start-Hint=监控/停止串口监控
+act_Start-Caption=监控/停止
+act_AutoSave-Hint=自动保存日志
+act_AutoSave-Caption=自动保存
+act_SaveAs-Hint=另存为当前焦点视图
+act_SaveAs-Caption=另存为...
+tbs_Filter-Caption=过滤设置
+tbs_Ascii-Caption=ASCII视图
+tbs_IoCtl-Caption=IOCTL 视图
+
+AutoUpdateText=%s, 有新的更新，请到官方网站更新。
+NotFoundComm=没有发现可用的串口.
+OpenMonitor=打开监控失败.
+ControlCapture=控制捕获状态失败或串口监控没有开起.
+
+N_File-Caption=文件
+N_Edit-Caption=编辑
+N_Monitor-Caption=监控
+N_View-Caption=视图
+N_Help-Caption=帮助
+N_Softupdate-Caption=软件更新
+N_home-Caption=主页
+
+g_IoctlFilter-Caption=IOCTL过滤
+
+
+act_searchNext-Caption=查找下一个
+act_search-Caption=查找
+act_searchNext-Hint=查找下一个
+act_search-Hint=查找
+
+N_SelectNone-Caption=全部清空
+N_SelectAll-Caption=全部选择
+N_SelectRe-Caption=返选
+tb_Opt-Caption=操作
+
+lv_Data-Columns0=序号
+lv_Data-Columns1=时间
+lv_Data-Columns2=进程(PID)
+lv_Data-Columns3=IO类型
+lv_Data-Columns4=COM口
+lv_Data-Columns5=数据长度
+lv_Data-Columns6=数据
+N_DataView-Caption=数据视图
+N_DataViewList-Caption=列表视图
+N_DataViewAsc-Caption=ASCII视图
+N_DataViewDump-Caption=DUMP视图
+N_DataViewIoctl-Caption=IOCTL视图
+N_DataViewFilter-Caption=过滤设置
+
+N_CommTone-Caption=串口调试工具
+[TW]
+N_CommTone-Caption=串口調試工具
+tbs_DUMP-Caption=DUMP視圖
+tbs_Data-Caption=列表視圖
+Act_font-Hint=字體選擇
+Act_font-Caption=字體
+rg_Com-Caption=串口列表
+g_Mon-Caption=監控
+act_Top-Hint=表單最頂端
+act_Top-Caption=最頂端
+act_Preview-Caption=列印
+act_About-Caption=關於
+act_Help-Hint=打開幫助文件
+act_Help-Caption=打開幫助
+act_CopyTo-Hint=複製到剪貼板
+act_CopyTo-Caption=複製
+act_Exit-Caption=退出
+act_Clear-Hint=清空顯示當前視圖
+act_Clear-Caption=清空顯示
+act_Capture-Hint=開啟/暫停捕獲數據
+act_Capture-Caption=開啟/暫停
+act_Start-Hint=監控/停止 串口監控
+act_Start-Caption=監控/停止
+act_AutoSave-Hint=自動保存日誌
+act_AutoSave-Caption=自動保存
+act_SaveAs-Hint=另存為當前焦點視圖
+act_SaveAs-Caption=另存為...
+tbs_Filter-Caption=過濾設置
+tbs_Ascii-Caption=ASCII視圖
+tbs_IoCtl-Caption=IOCTL 視圖
+
+NotFoundComm=沒有發現可用的串口.
+OpenMonitor=打開監控失敗.
+ControlCapture=控制捕獲狀態失敗或串口監控沒有開起.
+AutoUpdateText=%s, 新的軟體更新，請在官方網站更新。
+
+N_File-Caption=文件
+N_Edit-Caption=編輯
+N_Monitor-Caption=監控
+N_View-Caption=視圖
+N_Help-Caption=說明
+N_Softupdate-Caption=軟體更新
+N_home-Caption=主頁
+
+g_IoctlFilter-Caption=IOCTL過濾
+
+act_searchNext-Caption=查找下一個
+act_search-Caption=查找
+act_searchNext-Hint=查找下一個
+act_search-Hint=查找
+
+N_SelectNone-Caption=全部清空
+N_SelectAll-Caption=全部選擇
+N_SelectRe-Caption=返選
+tb_Opt-Caption=操作
+
+lv_Data-Columns0=序號
+lv_Data-Columns1=時間
+lv_Data-Columns2=進程(PID)
+lv_Data-Columns3=IO類型
+lv_Data-Columns4=COM口
+lv_Data-Columns5=數據長度
+lv_Data-Columns6=數據
+
+
+N_DataView-Caption=數據視圖
+N_DataViewList-Caption=列表視圖
+N_DataViewAsc-Caption=ASCII視圖
+N_DataViewDump-Caption=DUMP視圖
+N_DataViewIoctl-Caption=IOCTL視圖
+N_DataViewFilter-Caption=過濾設置
+
+
+[EN]
+N_CommTone-Caption=CommTone
+lv_Data-Columns0=Seqid
+lv_Data-Columns1=Time
+lv_Data-Columns2=ImageName(PID)
+lv_Data-Columns3=IRP
+lv_Data-Columns4=COM
+lv_Data-Columns5=Size
+lv_Data-Columns6=Data
+
+g_IoctlFilter-Caption=IOCTL Filter
+
+act_searchNext-Caption=Find Next
+act_search-Caption=Find
+act_searchNext-Hint=search next character
+act_search-Hint=search character
+
+N_SelectNone-Caption=None
+N_SelectAll-Caption=All
+N_SelectRe-Caption=Reverse
+
+tb_Opt-Caption=Operate
+
+NotFoundComm=Not found comm.
+OpenMonitor=Open monitor failed.
+ControlCapture=Control capture failed or not't start monitor.
+AutoUpdateText=New software updated, Please  the official website update.
+
+N_File-Caption=File
+N_Edit-Caption=Edit
+N_Monitor-Caption=Monitor
+N_View-Caption=View
+N_Help-Caption=Help
+N_Softupdate-Caption=Software
+N_home-Caption=Home
+
+tbs_IoCtl-Caption=IOCTL view
+tbs_Ascii-Caption=ASCII view
+tbs_Filter-Caption=Filter setting
+tbs_DUMP-Caption=DUMP view
+tbs_Data-Caption=List view
+Act_font-Hint=Font select
+Act_font-Caption=Font
+g_Mon-Caption=Monitor
+rg_Com-Caption=Com list
+act_Top-Hint=TOP MOST
+act_Top-Caption=Ontop
+act_Preview-Caption=Print..
+act_About-Caption=About
+act_About-Hint=About CEIWEI CommMonitor
+act_Help-Hint=Open help
+act_Help-Caption=Help
+act_CopyTo-Hint=Copy To Clipboard
+act_CopyTo-Caption=Copy
+act_Exit-Caption=Exit
+act_Exit-Hint=Exit the CommMointor
+act_Clear-Hint=Clear current view
+act_Clear-Caption=Clear
+act_Capture-Hint=Start/Pause Capture
+act_Capture-Caption=Start/Pause
+act_Start-Hint=Monitor/Stop
+act_Start-Caption=Monitor/Stop
+act_AutoSave-Hint=Auto save logs
+act_AutoSave-Caption=AutoSave
+act_SaveAs-Hint=Save as view
+act_SaveAs-Caption=Save as
+
+
+N_DataView-Caption=DataView
+N_DataViewList-Caption=List view
+N_DataViewAsc-Caption=ASCII view
+N_DataViewDump-Caption=DUMP view
+N_DataViewIoctl-Caption=IOCTL view
+N_DataViewFilter-Caption=Filter setting

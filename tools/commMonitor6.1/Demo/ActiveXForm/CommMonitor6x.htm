@@ -1,0 +1,165 @@
+<HTML>
+<head>
+<title>
+</title>
+
+<script language="jscript">
+    function OnAscii(sPortName, dwCtrlCode, dwPID, sASC, dwSize)
+    {
+        var  IRP_MJ_CREATE                   =0x00;
+        var  IRP_MJ_CLOSE                    =0x02;
+        var  IRP_MJ_READ                     =0x03;
+        var  IRP_MJ_WRITE                    =0x04;
+        var  IRP_MJ_DEVICE_CONTROL           =0x0E;
+        var  IRP_MJ_CLEANUP                  =0x12;
+        var  IRP_MJ_MAXIMUM_FUNCTION         =0x1B;
+        var  IRP_MJ_FLUSH_BUFFERS            =0x09;
+    
+        var lbSendInfo = document.getElementById('lbSendInfo');
+    
+        switch(dwCtrlCode)
+        {
+	    case IRP_MJ_CLOSE:
+                    redt_RecvData.value += sPortName+": Close\r\n";
+                    break;
+            case IRP_MJ_CREATE: 
+                    redt_RecvData.value += sPortName+": Open\r\n";
+                    break;
+           case  IRP_MJ_READ:   {
+             redt_RecvData.Total = Number(redt_RecvData.Total)+dwSize;
+             redt_RecvData.value += sPortName+',Read('+dwSize+'):'+sASC+'\r\n';
+             break;
+             }
+           case  IRP_MJ_WRITE: {
+             lbSendInfo.Total = Number(lbSendInfo.Total)+dwSize;
+             redt_RecvData.value += sPortName+',Write('+dwSize+'):'+sASC+'\r\n';
+             break;
+             }
+           default:{
+             erText.value +=sASC+'\r\n';
+             break;
+           }
+        }
+            
+        if ((dwCtrlCode == IRP_MJ_READ)  || (dwCtrlCode == IRP_MJ_WRITE))
+        {
+            lbSendInfo.innerHTML="Write: " + lbSendInfo.Total + "(Bytes), Read: "+redt_RecvData.Total + "(Bytes)";
+            redt_RecvData.scrollTop = redt_RecvData.scrollHeight;
+        }
+
+    }
+
+	function StartMonitor(obj)
+    {
+      	if (obj.value=="Stop monitor")
+		{
+			CommMonitorX.StopMonitor();
+			obj.value="Start monitor";
+		}
+		else {
+            var ComPort=document.getElementById('ComPort');
+			var sComNum=ComPort.options[ComPort.selectedIndex].text;
+            
+            if (CommMonitorX.StartMonitor(sComNum))
+            {
+				obj.value="Stop monitor";
+				lbSendTip.innerHTML="<font color='green'>Hint: Open monitor Successfully. </FONT>";
+			}
+			else
+			{
+				  //alert("Failed");
+				lbSendTip.innerHTML="<font color='red'>Hint: Open Monitor failed. </FONT>";
+				obj.value="Start monitor";
+			}
+        }
+    }
+
+    var fPause=false;
+    function PauseMonitor(obj)
+    {
+      	if (CommMonitorX.PauseMonitor(fPause))
+         	fPause = !fPause;
+    	if (fPause)
+          obj.value = "Continue";
+   		else
+          obj.value = "Pause";
+    }
+
+
+	function onLoad(){
+		var sTitle="CommMonitor WEB Monitor tool (v6.0) OCX Trial";
+		var b = document.getElementById('hTitle');
+		b.innerHTML+=sTitle+"   (Note: Calls to 200 will re-send and receive data refresh the page,<BR> then open the serial port.)";
+		document.title=sTitle;
+		CommMonitorX.visible=false;
+        CommMonitorX.attachEvent("OnAscii", OnAscii);
+
+	}
+	function ShowActiveX(obj){
+		CommMonitorX.visible=!CommMonitorX.visible;
+        CommMonitorX.AboutBox();
+	}
+</script>
+</head>
+
+<body onLoad="onLoad()">
+<table align="center">
+<tr><td>
+<H5 id="hTitle">
+<a href="http://www.ceiwei.com" target="_blank">CEIWEI HOME</a>&nbsp;&nbsp;
+<a href="http://www.ceiwei.com/list.asp?classid=2" target="_blank">SOFTWARE</a>
+<BR></H5>
+</td> </tr>
+<tr><td align="center">
+<BR><BR>
+<HR></HR>
+<div align="left" style="width:645px; overflow:hidden;">
+<select id="ComPort">
+<option>COM1</option>
+<option>COM2</option>
+<option>COM3</option>
+<option>COM4</option>
+<option>COM5</option>
+<option>COM6</option>
+</select>
+
+<Input type="button" Value="Start monitor" onClick="StartMonitor(this)">
+<Input type="button" Value="Pause"  onClick="PauseMonitor(this)">
+</div><BR>
+<div align="left" style="width:645px; overflow:hidden; border:1px solid #666;">
+<label id="lbSendInfo" Total="0">Write: </label>
+<HR size="1">
+<label id="lbSendTip">Hint: </label>
+</div>
+<BR>
+<div align="left" style="width:645px; overflow:hidden;">
+Log data£º&nbsp;&nbsp;&nbsp;&nbsp;
+<Input type="button" Value="Clear"  onclick="redt_RecvData.value='';">
+</div>
+<textarea Name="redt_RecvData" rows="12" cols="89" Total=0>
+</textarea>
+<BR><BR>
+<div align="left" style="width:645px; overflow:hidden;">
+CtlCode£º<Input type="button" Value="Show ABout"  onclick="ShowActiveX(this)">
+&nbsp;&nbsp;&nbsp;&nbsp;
+<Input type="button" Value="Clear"  onclick="erText.value='';">
+</div>
+<textarea Name="erText" rows="6" cols="89">
+</textarea>
+
+<BR>
+<OBJECT
+	  Name="CommMonitorX"	 
+	  classid="CLSID:2F89A1E6-2C00-4882-A3D4-ACDA95FC7F6B"
+	  codebase="..\CommMonitor6x.ocx#version=1,0,0,0"
+	  width=645
+	  height=25
+	  align=center
+	  hspace=0
+	  vspace=0
+>
+</OBJECT>
+</td> </tr>
+</table>
+</body>
+</HTML>

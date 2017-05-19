@@ -1,0 +1,141 @@
+[Default]
+//default=1=CN
+//default=2=TW
+//default=3=EN
+default=1
+[CN]
+act_OnTop.Caption=最顶层
+act_About.Caption=关于
+act_Clear.Caption=清空显示
+act_Exit.Caption=退出
+act_Help.Caption=帮助
+act_open.Caption=打开/关闭
+act_PauseOutput.Caption=暂停显示
+act_SendFile.Caption=发送文件
+act_SendData.Caption=发送数据(&S)
+act_SendData.Hint=直接发送到串没有校验数据
+Button2.Caption=应用
+act_Sava.Caption=保存参数
+cbk_Enter.Caption=回车发送
+CheckBox3.Caption=无冗余校验
+chk_AutoReturn.Caption=自动换行
+chk_autoSend.Caption=自动发送     周期(ms)： 
+chx_AddCRC.Caption=加入CRC
+Label1.Caption=端口号   
+Label2.Caption=数据位   
+Label3.Caption=波特率 
+Label4.Caption=校验位 
+Label5.Caption=停止位 
+lbl1.Caption=www.ceiwei.com
+N_Clear.Caption=清空
+n_Copy.Caption=复制
+N_LanCN.Caption=简体中文
+N_LanEN.Caption=English
+N_LanTW.Caption=繁体中文
+n_Paste.Caption=粘贴
+N_Save.Caption=另存为...
+N1.Caption=文件
+N12.Caption=帮助
+N20.Caption=更新
+N21.Caption=工具
+N22.Caption=串口监控
+N24.Caption=语言
+N4.Caption=加载...
+N8.Caption=编辑
+
+
+[TW]
+act_About.Caption=關於
+act_Clear.Caption=清空顯示
+act_Exit.Caption=退出
+act_Help.Caption=説明
+act_open.Caption=打開/關閉
+act_PauseOutput.Caption=暫停顯示
+act_SendFile.Caption=發送文件
+act_SendData.Caption=發送資料(&S)
+act_SendData.Hint=直接發送到串沒有校驗資料
+Button2.Caption=應用
+act_Sava.Caption=保存參數
+cbk_Enter.Caption=回車發送
+CheckBox3.Caption=無冗餘校驗
+chk_AutoReturn.Caption=自動換行
+chk_autoSend.Caption=自動發送     週期(ms)： 
+chx_AddCRC.Caption=加入CRC
+Label1.Caption=端口
+Label2.Caption=數據位  
+Label3.Caption=波特率
+Label4.Caption=校驗位 
+Label5.Caption=停止位 
+lbl1.Caption=www.ceiwei.com
+N_Clear.Caption=清空
+n_Copy.Caption=複製
+N_LanCN.Caption=簡體中文
+N_LanEN.Caption=English
+N_LanTW.Caption=繁體中文
+n_Paste.Caption=粘貼
+N_Save.Caption=另存為...
+N1.Caption=文件
+N12.Caption=説明
+act_OnTop.Caption=最頂層
+N20.Caption=更新
+N21.Caption=工具
+N22.Caption=串口監控
+N24.Caption=語言
+N4.Caption=載入...
+N8.Caption=編輯
+
+
+
+[EN]
+act_About.Caption=About
+act_About.Hint=About me
+act_Clear.Caption=Clear
+act_Clear.Hint=Clear received
+act_Exit.Caption=Exit
+act_Exit.Hint=Exit commtone
+act_Help.Caption=Help
+act_Help.Hint=Show chm help
+act_open.Caption=Open/Close
+act_open.Hint=Open or close serial port
+act_PauseOutput.Caption=Pause 
+act_PauseOutput.Hint=Pause received
+act_SendFile.Caption=Sand file
+act_SendFile.Hint=Send any file
+act_SendData.Caption=SendData(&S)
+act_SendData.Hint=No check sent directly to the serial data
+Button2.Caption=Apply
+Button2.Hint=Apply setting
+act_Sava.Caption=Sava setting
+act_Sava.Hint=Sava setting to file
+cbk_Enter.Caption=Return send
+cbk_Enter.Hint=Return to send data
+CheckBox3.Caption=No redundancy check
+chk_AutoReturn.Caption=Auto-wrap
+chk_AutoReturn.Hint=
+chk_autoSend.Caption=Auto-send        Times(ms):  
+chk_autoSend.Hint=
+chx_AddCRC.Caption=Add CRC
+Label1.Caption=Port#
+Label2.Caption=DataBit
+Label3.Caption=BautRate
+Label4.Caption=VerifyBit
+Label5.Caption=StopBit
+lbl1.Caption=www.ceiwei.com
+N_Clear.Caption=Clear
+n_Copy.Caption=Copy
+N_LanCN.Caption=Simplified Chinese
+N_LanEN.Caption=English
+N_LanTW.Caption=Traditional Chinese
+n_Paste.Caption=Paste
+N_Save.Caption=Sava as...
+N1.Caption=File
+N12.Caption=Help
+act_OnTop.Caption=OnTop
+N20.Caption=Update
+N21.Caption=Tools
+N22.Caption=Serial comm monitor
+N24.Caption=Language
+N4.Caption=Loading
+N8.Caption=Edit
+[Default]
+default=1

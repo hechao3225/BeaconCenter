@@ -1,0 +1,15 @@
+G:\jfyes\KD\CommMonitor6.1\MainApp\OCX\Bin\Demo\VS2008\VB.net\bin\Release\VB.net.exe
+G:\jfyes\KD\CommMonitor6.1\MainApp\OCX\Bin\Demo\VS2008\VB.net\bin\Release\VB.net.pdb
+G:\jfyes\KD\CommMonitor6.1\MainApp\OCX\Bin\Demo\VS2008\VB.net\bin\Release\VB.net.xml
+G:\jfyes\KD\CommMonitor6.1\MainApp\OCX\Bin\Demo\VS2008\VB.net\obj\Release\ResolveAssemblyReference.cache
+G:\jfyes\KD\CommMonitor6.1\MainApp\OCX\Bin\Demo\VS2008\VB.net\obj\Release\VB.net.Resources.resources
+G:\jfyes\KD\CommMonitor6.1\MainApp\OCX\Bin\Demo\VS2008\VB.net\obj\Release\VB.net.vbproj.GenerateResource.Cache
+G:\jfyes\KD\CommMonitor6.1\MainApp\OCX\Bin\Demo\VS2008\VB.net\obj\Release\VB.net.exe
+G:\jfyes\KD\CommMonitor6.1\MainApp\OCX\Bin\Demo\VS2008\VB.net\obj\Release\VB.net.xml
+G:\jfyes\KD\CommMonitor6.1\MainApp\OCX\Bin\Demo\VS2008\VB.net\obj\Release\VB.net.pdb
+G:\jfyes\KD\CommMonitor6.1\MainApp\OCX\Bin\Demo\VS2008\VB.net\bin\Release\Interop.CommMonitor6x.dll
+G:\jfyes\KD\CommMonitor6.1\MainApp\OCX\Bin\Demo\VS2008\VB.net\bin\Release\AxInterop.CommMonitor6x.dll
+G:\jfyes\KD\CommMonitor6.1\MainApp\OCX\Bin\Demo\VS2008\VB.net\obj\Release\Interop.CommMonitor6x.dll
+G:\jfyes\KD\CommMonitor6.1\MainApp\OCX\Bin\Demo\VS2008\VB.net\obj\Release\AxInterop.CommMonitor6x.dll
+G:\jfyes\KD\CommMonitor6.1\MainApp\OCX\Bin\Demo\VS2008\VB.net\obj\Release\VB.net.vbproj.ResolveComReference.cache
+G:\jfyes\KD\CommMonitor6.1\MainApp\OCX\Bin\Demo\VS2008\VB.net\obj\Release\VB.net.Form1.resources

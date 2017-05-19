@@ -1,0 +1,13 @@
+G:\jfyes\KD\CommMonitor6.1\MainApp\OCX\Bin\Demo\VS2008\CSharp\obj\Release\Interop.CommMonitor6x.dll
+G:\jfyes\KD\CommMonitor6.1\MainApp\OCX\Bin\Demo\VS2008\CSharp\obj\Release\AxInterop.CommMonitor6x.dll
+G:\jfyes\KD\CommMonitor6.1\MainApp\OCX\Bin\Demo\VS2008\CSharp\obj\Release\CSharp.csproj.ResolveComReference.cache
+G:\jfyes\KD\CommMonitor6.1\MainApp\OCX\Bin\Demo\VS2008\CSharp\obj\Release\ResolveAssemblyReference.cache
+G:\jfyes\KD\CommMonitor6.1\MainApp\OCX\Bin\Demo\VS2008\CSharp\obj\Release\CSharp.Form1.resources
+G:\jfyes\KD\CommMonitor6.1\MainApp\OCX\Bin\Demo\VS2008\CSharp\obj\Release\CSharp.Properties.Resources.resources
+G:\jfyes\KD\CommMonitor6.1\MainApp\OCX\Bin\Demo\VS2008\CSharp\obj\Release\CSharp.csproj.GenerateResource.Cache
+G:\jfyes\KD\CommMonitor6.1\MainApp\OCX\Bin\Demo\VS2008\CSharp\bin\Release\CSharp.exe
+G:\jfyes\KD\CommMonitor6.1\MainApp\OCX\Bin\Demo\VS2008\CSharp\bin\Release\CSharp.pdb
+G:\jfyes\KD\CommMonitor6.1\MainApp\OCX\Bin\Demo\VS2008\CSharp\bin\Release\Interop.CommMonitor6x.dll
+G:\jfyes\KD\CommMonitor6.1\MainApp\OCX\Bin\Demo\VS2008\CSharp\bin\Release\AxInterop.CommMonitor6x.dll
+G:\jfyes\KD\CommMonitor6.1\MainApp\OCX\Bin\Demo\VS2008\CSharp\obj\Release\CSharp.exe
+G:\jfyes\KD\CommMonitor6.1\MainApp\OCX\Bin\Demo\VS2008\CSharp\obj\Release\CSharp.pdb

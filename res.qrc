@@ -1,0 +1,95 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>btn/1 (20).gif</file>
+        <file>btn/1 (21).gif</file>
+        <file>btn/1 (22).gif</file>
+        <file>btn/1 (23).gif</file>
+        <file>btn/1 (24).gif</file>
+        <file>btn/1 (25).gif</file>
+        <file>btn/1 (26).gif</file>
+        <file>btn/1 (27).gif</file>
+        <file>btn/1 (28).gif</file>
+        <file>btn/1 (29).gif</file>
+        <file>btn/1 (30).gif</file>
+        <file>btn/1 (31).gif</file>
+        <file>btn/1 (32).gif</file>
+        <file>btn/1 (33).gif</file>
+        <file>btn/1 (34).gif</file>
+        <file>btn/1 (35).gif</file>
+        <file>btn/1 (36).gif</file>
+        <file>btn/1 (37).gif</file>
+        <file>btn/1 (38).gif</file>
+        <file>btn/1 (39).gif</file>
+        <file>btn/1 (40).gif</file>
+        <file>btn/1 (41).gif</file>
+        <file>btn/1 (42).gif</file>
+        <file>btn/1 (43).gif</file>
+        <file>btn/1 (44).gif</file>
+        <file>btn/1 (45).gif</file>
+        <file>btn/1 (46).gif</file>
+        <file>btn/1 (47).gif</file>
+        <file>btn/1 (48).gif</file>
+        <file>btn/1 (49).gif</file>
+        <file>btn/1 (50).gif</file>
+        <file>btn/1 (51).gif</file>
+        <file>btn/1 (52).gif</file>
+        <file>btn/1 (53).gif</file>
+        <file>btn/1 (54).gif</file>
+        <file>btn/1 (55).gif</file>
+        <file>btn/1 (56).gif</file>
+        <file>btn/1 (57).gif</file>
+        <file>btn/1 (58).gif</file>
+        <file>btn/1 (59).gif</file>
+        <file>btn/1 (60).gif</file>
+        <file>btn/1 (61).gif</file>
+        <file>btn/1 (62).gif</file>
+        <file>btn/1 (63).gif</file>
+        <file>btn/1 (64).gif</file>
+        <file>btn/1 (65).gif</file>
+        <file>btn/btn_report.png</file>
+        <file>btn/btn_set.png</file>
+        <file>btn/flush.png</file>
+        <file>btn/no_sound.jpg</file>
+        <file>btn/report.jpg</file>
+        <file>btn/sound.jpg</file>
+        <file>btn/switch.jpg</file>
+        <file>back/titleBar.jpg</file>
+        <file>back/logo.jpg</file>
+        <file>btn/btn1.png</file>
+        <file>btn/btn2.png</file>
+        <file>btn/btn3.png</file>
+        <file>btn/btn4.png</file>
+        <file>back/back2.jpg</file>
+        <file>back/back6.jpg</file>
+        <file>back/back3.jpg</file>
+        <file>back/back1.jpg</file>
+        <file>back/back8.jpg</file>
+        <file>back/back5.jpg</file>
+        <file>btn/btn5.png</file>
+        <file>btn/btn6.png</file>
+        <file>back/back.png</file>
+        <file>back/back4.jpg</file>
+        <file>back/back10.jpg</file>
+        <file>btn/btnback.png</file>
+        <file>back/logoback.png</file>
+        <file>back/titleBarEle2.png</file>
+        <file>back/titleBarEle1.png</file>
+        <file>back/titleback.png</file>
+        <file>back/back11.jpg</file>
+        <file>btn/beacon.jpg</file>
+        <file>btn/tcpServer.gif</file>
+        <file>btn/icSearch.png</file>
+        <file>btn/icon.png</file>
+        <file>btn/quit.png</file>
+        <file>btn/contact1.jpg</file>
+        <file>btn/contact4.png</file>
+        <file>btn/SQL.jpg</file>
+    </qresource>
+    <qresource prefix="/sounds">
+        <file>sound/btn1.wav</file>
+        <file>sound/btn2.wav</file>
+        <file>sound/btn3.wav</file>
+        <file>sound/success.wav</file>
+        <file>sound/wrong.wav</file>
+    </qresource>
+</RCC>
